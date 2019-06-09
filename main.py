@@ -86,7 +86,7 @@ while True:
                         else:
                             obs = 1
 
-                        driver = webdriver.Chrome(executable_path='/app/chromedriver')
+                        driver = webdriver.Chrome('chromedriver.exe')
                         driver.set_window_size(1600, 1000)
                         cookie = {
                             'name': 'Participant',
